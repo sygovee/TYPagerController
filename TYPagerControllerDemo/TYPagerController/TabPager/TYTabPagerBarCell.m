@@ -36,6 +36,7 @@
     titleLabel.font = [UIFont systemFontOfSize:15];
     titleLabel.textColor = [UIColor darkTextColor];
     titleLabel.textAlignment = NSTextAlignmentCenter;
+    titleLabel.numberOfLines = 0;
     [self.contentView addSubview:titleLabel];
     _titleLabel = titleLabel;
 }
